@@ -14,306 +14,80 @@
     <title>CV</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header_cont">
-          <div class="header_photo">
-            <img src="./assets/FGDW7026.JPG" class="avatar_img" alt="avatar" />
-          </div>
-          <div class="header_menu">
-            <nav class="nav_cont">
-              <ul class="nav_list">
-                <li class="nav_item">
-                  <a class="nav_link">About Me</a>
-                </li>
-                <li class="nav_item">
-                  <a class="nav_link">Code</a>
-                </li>
-                <li class="nav_item">
-                  <a class="nav_link">Project</a>
-                </li>
-                <li class="nav_item">
-                  <a class="nav_link">Skill</a>
-                </li>
-                <li class="nav_item">
-                  <a class="nav_link">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="name_cont">
-              <h1 class="name_title">Saidov Zaur</h1>
-              <h2 class="name_subtitle">Front-End Developer</h2>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header>
+      <h1>John Doe</h1>
+      <p>Frontend Developer</p>
     </header>
-    <div class="main_wrapper">
-      <div class="education_wrapper">
-        <div class="main_content">
-          <aside class="education_block">
-            <section class="education_section">
-              <h3 class="education_header">Education</h3>
-              <div class="education_place">
-                <div class="education_title">Chelyabinsk State University</div>
-                <div class="education_description">Management</div>
-              </div>
-              <div class="education_place">
-                <div class="education_title">Udemy</div>
-                <div class="education_description">
-                  <a
-                    href="https://www.udemy.com/course/pro-react-redux/learn/lecture/11158939?start=0#overview"
-                    class="education_link"
-                  >
-                    React</a
-                  >
-                </div>
-                <div class="education_description">
-                  <a
-                    href="https://www.udemy.com/course/pro-react-redux/learn/lecture/11158939?start=0#overview"
-                    class="education_link"
-                    >Redux</a
-                  >
-                </div>
-              </div>
-              <div class="education_place">
-                <div class="education_title">RSSchool</div>
-                <div class="education_description">
-                  <a
-                    href="https://app.rs.school/course/student/dashboard?course=js-fe-preschool-2023q2"
-                    class="education_link"
-                  >
-                    JS/FE Pre school</a
-                  >
-                </div>
-                <div class="education_description">
-                  <a
-                    href="https://app.rs.school/course/student/dashboard?course=js-fe-preschool-2023q2"
-                    class="education_link"
-                    >JS/FE 2023Q3</a
-                  >
-                </div>
-              </div>
-            </section>
-            >
-          </aside>
-          <main class="main">
-            <section class="about_me about">
-              <h2 class="about_title">About me</h2>
-              <p class="about_param">Greetings, my name is Zaur.</p>
-              <article class="strengths_article">
-                <h4 class="strengths_title">My strengths:</h4>
-                <ul class="strengths_list">
-                  <li class="strengths_item">Quick learner</li>
-                  <li class="strengths_item">
-                    Full immersion in the essence of the problems
-                  </li>
-                  <li class="strengths_item">Diligence</li>
-                  <li class="strengths_item">Team playing</li>
-                </ul>
-                <h4 class="strengths_title">langueges:</h4>
-                <ul class="strengths_list">
-                  <li class="strengths_item">Russian</li>
-                  <li class="strengths_item">English A2+(B1 processing)</li>
-                </ul>
-              </article>
-              <div class="quote">
-                <a href="https://roadmap.sh/frontend" target="_blank"
-                  >Keep lerning...</a
-                >
-              </div>
-            </section>
-            <section class="code_example">
-              <h3 class="code_title">Code example</h3>
-              <pre class="pre">
-                            <code class="code">
-                                function filterTodo(e){
-                                    const todos = todoList.childNodes;
-                                    todos.forEach(function (todo) {
-                                        switch(e.target.value){
-                                            case "all":
-                                                todo.style.display = "flex";
-                                                break;
-                                                case "completed":
-                                                    if(todo.classList.contains('completed')){
-                                                        todo.style.display = "flex";
-                                                    }else{todo.style.display = "none";
-                                                }
-                                                break;
-                                                case "uncompleted":
-                                                    if(!todo.classList.contains('completed')){
-                                                        todo.style.display = "flex";
-                                                    }else{todo.style.display = "none";
-                                                }
-                                                break;
-                                        }
-                                    });
-                                }
-                            </code>
-                        </pre>
-            </section>
-            <section class="project_section">
-              <h3 class="project_title">Projects</h3>
-              <div class="project_wrapper">
-                <div class="project_item">
-                  <a
-                    href="https://polite-frangipane-999347.netlify.app/"
-                    class="project_link"
-                    target="blank"
-                  >
-                    <img
-                      src="./assets/virtual_keyboard.png"
-                      class="project_img"
-                      alt="virtual keyboard"
-                    />
-                  </a>
-                  <div class="project_info">
-                    <h4 class="project_name">Virtual keyboard</h4>
-                    <p class="project_desrc">
-                      Simple virtual keyboard where you can write anything
-                    </p>
-                    <div class="project_tech">
-                      <ul class="project_tech-list">
-                        <li class="project_item">
-                          <img
-                            src="./assets/html-5-logo-svgrepo-com.svg"
-                            alt="html5"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/css-svgrepo-com.svg"
-                            alt="css"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/sass-svgrepo-com.svg"
-                            alt="sass"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/javascript-svgrepo-com.svg"
-                            alt="JavaScripts"
-                            class="project_img"
-                          />
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="project_item">
-                  <a
-                    href="https://polite-frangipane-999347.netlify.app/"
-                    class="project_link"
-                    target="_blank"
-                  >
-                    <img
-                      src="./assets/cozy_house.png"
-                      class="project_img"
-                      alt="Cozy House"
-                    />
-                  </a>
-                  <div class="project_info">
-                    <h4 class="project_name">Cozy House</h4>
-                    <p class="project_desrc">
-                      Visit site about cozy house used carousel adaptive layout
-                      and list generation
-                    </p>
-                    <div class="project_tech">
-                      <ul class="project_tech-list">
-                        <li class="project_item">
-                          <img
-                            src="./assets/html-5-logo-svgrepo-com.svg"
-                            alt="html5"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/css-svgrepo-com.svg"
-                            alt="css"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/sass-svgrepo-com.svg"
-                            alt="sass"
-                            class="project_img"
-                          />
-                        </li>
-                        <li class="project_item">
-                          <img
-                            src="./assets/javascript-svgrepo-com.svg"
-                            alt="JavaScripts"
-                            class="project_img"
-                          />
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </main>
+
+    <div class="container">
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+        </p>
+        <p>Phone: +1 234 567 890</p>
+        <p>
+          Website: <a href="https://johndoe.dev" target="_blank">johndoe.dev</a>
+        </p>
+        <p>Location: New York, USA</p>
+      </section>
+
+      <section class="summary">
+        <h2>Summary</h2>
+        <p>
+          Passionate front-end developer with 5+ years of experience building
+          responsive web applications with modern technologies like React,
+          TypeScript, and Next.js.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <div>
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>JavaScript</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Next.js</span>
+          <span>Tailwind CSS</span>
+          <span>Git</span>
+          <span>Jest</span>
+          <span>Webpack</span>
         </div>
-      </div>
+      </section>
+
+      <section class="experience">
+        <h2>Experience</h2>
+        <h3>Senior Frontend Developer – TechCorp</h3>
+        <p><em>2021 – Present</em></p>
+        <ul>
+          <li>
+            Led the development of a customer dashboard using React and Redux.
+          </li>
+          <li>Implemented CI/CD pipelines for automated deployment.</li>
+          <li>Mentored junior developers and led code reviews.</li>
+        </ul>
+
+        <h3>Frontend Developer – WebStudio</h3>
+        <p><em>2018 – 2021</em></p>
+        <ul>
+          <li>Created reusable UI components with Storybook.</li>
+          <li>
+            Worked closely with designers to implement pixel-perfect layouts.
+          </li>
+          <li>Optimized performance for large-scale applications.</li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <p>
+          <strong>B.Sc. in Computer Science</strong>, NY University – 2014–2018
+        </p>
+      </section>
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer_container">
-          <section class="section_contact">
-            <h3 class="contact_title">Contact</h3>
-            <ul class="contact_list">
-              <li class="contact_item">
-                <a href="tel:+77476895137" class="contact_link" target="_blank"
-                  >Phone</a
-                >
-              </li>
-              <li class="contact_item">
-                <a href="tel:+77476895137" class="contact_link" target="_blank"
-                  >E-mail</a
-                >
-              </li>
-              <li class="contact_item">
-                <a
-                  href="tel:+77476895137"
-                  class="contact_link"
-                  target="_blank"
-                  class="footer_img"
-                  >Telegram</a
-                >
-              </li>
-            </ul>
-          </section>
-          <div class="footer_content">
-            <div class="footer_item">
-              <a href="https://github.com/Takethisworld" class="git_link">
-                <img
-                  src="./assets/github-142-svgrepo-com.svg"
-                  alt="git link"
-                  class="footer_img"
-                />
-              </a>
-            </div>
-            <div class="footer_item">
-              <a href="https://rs.school/" class="git_link">
-                <img
-                  src="./assets/rsschool_logo.png"
-                  alt="rsschool link"
-                  class="footer_img"
-                />
-              </a>
-            </div>
-            <div class="footer_date">Created <br />2023</div>
-          </div>
-        </div>
-      </div>
-    </footer>
+
+    <footer>&copy; 2025 John Doe. All rights reserved.</footer>
   </body>
 </html>
