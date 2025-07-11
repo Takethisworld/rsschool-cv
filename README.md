@@ -1,1 +1,1 @@
-# rsschool-cv
+https://takethisworld.github.io/rsschool-cv/
